@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 800px;
+    border: 1px solid black;
+    background-color: aqua;
+  }
+  
+  .drag-box {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 10px;
+    cursor: move;
+  }
+  
+  .drop-box {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    margin: 10px;
+  }
+  #drag2{
+    background-color: black;
+  }
+  #drag3{
+    background-color: yellow;
+  }
+  #drag4{
+    background-color: rgb(59, 36, 28);
+  }
+  
